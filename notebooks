@@ -45,7 +45,7 @@
         "warnings.filterwarnings(\"ignore\")\n",
         "RANDOM_STATE = 42\n",
         "os.makedirs(\"../results\", exist_ok=True)\n",
-        "\n",
+        "os.makedirs(\"../data\", exist_ok=True)\n",
         "DATA_URL = \"https://raw.githubusercontent.com/briggyx/heart_failure_dashboard/main/data/heart_failure_clinical_records_original.csv\"\n",
         "DATA_PATH = \"../data/heart_failure_clinical_records.csv\"\n",
         "\n",
